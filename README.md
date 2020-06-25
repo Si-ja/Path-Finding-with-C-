@@ -17,7 +17,7 @@ The random map generator works based on few principles.
 ```C#
  String[] choices = { "Square", "Plus", "L", "Corner", "Long1", "Long2", "Funnel", "Empty" };
 ````
-* There are several type of rooms (e.g. L-shaped, Square, Empty, etc.). Each room is just a 2D matrix/2D Array of boolean values.
+* There are several types of rooms (e.g. L-shaped, Square, Empty, etc.). Each room is just a 2D matrix/2D Array of boolean values.
 * All rooms generate as closed ones (meaning closed on all sides by walls). Afterwards, it is evaluated whether each room has an adjacent room and walls between them are deleted.
 * The grid where the rooms are generated is 25x25 cells. Meaning with room dimensions, there can be up to 25 rooms on the map, if no empty rooms are randomly would be chosen for generation.
 
