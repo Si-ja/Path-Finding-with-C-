@@ -23,8 +23,8 @@ The random map generator works based on few principles.
 
 ### Start and Finish
 
-* The start cell from which  the path will needed to be generated to the end cell can be placed by the user after the map has been generated. It is represented with a sprite of a key.
-* The end  cell to which the path will needed to be generated from the start cell can be placed by the user after the map  has been generated. It is represented with a sprite of a door/gate.
+* The start cell from which the path will need to be generated to the end cell can be placed by the user after the map has been generated. It is represented with a sprite of a key.
+* The end  cell to which the path will need to be generated from the start cell can be placed by the user after the map  has been generated. It is represented with a sprite of a door/gate.
 
 ### Path Finding Algorithms
 
